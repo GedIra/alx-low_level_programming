@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -AS code writes the text in puts as it is
- *return: 0 (success)
+ *main -AS code writes the text in puts as it is
+ *Return: 0 (success)
  */
 int main(void)
 {
