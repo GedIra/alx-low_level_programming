@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio>
+#include <stdio.h>
 /**
 * main - checking if n is positive negative or zero
 * Return: 0 (success)
