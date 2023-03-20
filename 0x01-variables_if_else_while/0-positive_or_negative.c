@@ -4,21 +4,28 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
+/* main -checking if n is positive negative or zero */
+/* return : 0 (success) */
+int main (void)
 {
 	int n;
+
 	srand(time(0));
         n = rand() - RAND_MAX / 2;
         /* your code goes there */
-	if(n<0) {
-		printf("is positive", n);
+	if (n < 0)
+	{
+		printf("is positive\n", n);
 	}
-	else if(n<0) {
-		printf("is neagtive",n);
+	else if (n < 0)
+	{
+		printf("is neagtive\n", n);
 	}
-	else(n==0) {
-		printf("is zero");
+	else (n == 0)
+	{
+		printf("is zero\n", n);
 	}
-	return(0);
+
+	return (0);
 }
 
