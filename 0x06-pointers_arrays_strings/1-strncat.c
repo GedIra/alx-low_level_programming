@@ -1,5 +1,5 @@
 /**
- * _strcat - a function that concatenates two strings.
+ * _strncat - a function that concatenates two strings.
  * @dest : first input, and destination.
  * @src : second input , and source.
  * @n : input value limitation.
