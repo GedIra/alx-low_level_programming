@@ -6,7 +6,7 @@
  * _strdup - returns a pointer to a new string
  *		which is a duplicate of the string str.
  * @str : a string to be duplicated.
- * Return: a duplicated string.
+ * Return: 0
  */
 
 char *_strdup(char *str)
@@ -28,7 +28,7 @@ char *_strdup(char *str)
 	if (dupl == NULL)
 		return (NULL);
 
-	for (r = 0; dupl[r] != '\0'; r++)
+	for (r = 0; str[r]; r++)
 	{
 		dupl[r] = str[r];
 	}
