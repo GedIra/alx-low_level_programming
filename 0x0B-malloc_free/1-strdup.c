@@ -23,14 +23,15 @@ char *_strdup(char *str)
 	{
 		i++;
 	}
-	dupl = malloc(sizeof(int) * (i + 1));
+	dupl = malloc(sizeof(char) * (i + 1));
+
+	if (dupl == NULL)
+		return (NULL);
 
 	for (r = 0; dupl[r] != '\0'; r++)
 	{
 		dupl[r] = str[r];
 	}
-	if (dupl == NULL)
-                return (NULL);
 
 	return (dupl);
 }
