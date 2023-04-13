@@ -4,10 +4,9 @@
  * string_nconcat - concatenates two strings.
  * @s1: first string, and which will be adjusted.
  * @s2: second string, to be concatenated to s1.
- * @n: number of bytes of s2 to be concatednated.
- * Return: a pointer to concatenated string.
+ * @n: number of bytes of s2 to be concatenated.
+ * Return: a pointer to a concatenated string.
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	size_t i, j, ln1 = 0, ln2 = 0;
